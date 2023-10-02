@@ -1,0 +1,43 @@
+h1,h2{
+    font-family: Arial;
+    color: white;
+    background-color: black;
+    background-image: url(imgs/bandeira1.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+body{
+    background-image: url(imgs/fundo-f1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    display:flex;
+    flex-direction: column;
+}
+
+ol.li{
+    list-style-type:none;
+
+}
+
+a:link{
+    color: rgb(255,174,0);
+    text-decoration: none;
+}
+
+a:visited{
+    color:rgb(129,129,211);
+    text-decoration: underline;
+}
+a:hover{
+    color: rgb(201,152,17);
+    text-decoration: underline;
+
+}
+
+p{
+    text-indent: 10%;
+    padding: 0.2rem;
+}
